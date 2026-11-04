@@ -1,15 +1,20 @@
 # Architecture
 ```
 ┌──────────────────────────────────────────────────────────────┬─────────────────────┐
-│ Orchestration                                                │ Governance          │
+│ Entry Point                                                  │ Governance          │
 │                                                              │                     │
-│   Agents                 Workflows                           │ • Cost              │
+│   Apps    APIs    Browsers   CLIs                            │ • Cost              │
 │                                                              │ • Accuracy          │
 ├──────────────────────────────────────────────────────────────┤ • Performance       │
-│ Gateway                                                      │ • Resilience        │
+│ Orchestration                                                │ • Resilience        │
 │                                                              │ • Security          │
-│   Model GW              MCP GW              A2A GW           │ • Compliance        │
+│   Agents                 Workflows                           │ • Compliance        │
 │                                                              │ • Evaluation        │
+├──────────────────────────────────────────────────────────────┤                     │
+│ Gateway                                                      │                     │
+│                                                              │                     │
+│   Model GW              MCP GW              A2A GW           │                     │
+│                                                              │                     │
 ├───────────────────────────────┬──────────────────────────────┤                     │
 │ Reasoning                     │ Action                       │                     │
 │                               │                              │                     │
