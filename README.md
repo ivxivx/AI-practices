@@ -3,14 +3,18 @@
 ┌──────────────────────────────────────────────────────────────┬─────────────────────┐
 │ Orchestration                                                │ Governance          │
 │                                                              │                     │
-│   Agents                 Workflows                           │                     │
-│                                                              │ • Cost              │
-├───────────────────────────────┬──────────────────────────────┤ • Accuracy          │
-│ Reasoning                     │ Action                       │ • Performance       │
-│                               │                              │ • Resilience        │
-│                               │                              │ • Security          │
-│   Models                      │   Tools        Skills        │ • Compliance        │
-│                               │                              │ • Evaluation        │
+│   Agents                 Workflows                           │ • Cost              │
+│                                                              │ • Accuracy          │
+├──────────────────────────────────────────────────────────────┤ • Performance       │
+│ Gateway                                                      │ • Resilience        │
+│                                                              │ • Security          │
+│   Model Gateway        MCP Gateway        A2A Gateway        │ • Compliance        │
+│                                                              │ • Evaluation        │
+├───────────────────────────────┬──────────────────────────────┤                     │
+│ Reasoning                     │ Action                       │                     │
+│                               │                              │                     │
+│   Models                      │   Tools        Skills        │                     │
+│                               │                              │                     │
 ├───────────────────────────────┴──────────────────────────────┤                     │
 │ Data                                                         │                     │
 │                                                              │                     │
