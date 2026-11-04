@@ -8,7 +8,7 @@
 ├──────────────────────────────────────────────────────────────┤ • Performance       │
 │ Gateway                                                      │ • Resilience        │
 │                                                              │ • Security          │
-│   Model Gateway        MCP Gateway        A2A Gateway        │ • Compliance        │
+│   Model GW              MCP GW              A2A GW           │ • Compliance        │
 │                                                              │ • Evaluation        │
 ├───────────────────────────────┬──────────────────────────────┤                     │
 │ Reasoning                     │ Action                       │                     │
