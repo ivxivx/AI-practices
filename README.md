@@ -11,11 +11,6 @@
 │   Agents                 Workflows                           │ • Compliance        │
 │                                                              │ • Evaluation        │
 ├──────────────────────────────────────────────────────────────┤                     │
-│ Gateway                                                      │                     │
-│                                                              │                     │
-│   Model GW              MCP GW              A2A GW           │                     │
-│                                                              │                     │
-├───────────────────────────────┬──────────────────────────────┤                     │
 │ Reasoning                     │ Action                       │                     │
 │                               │                              │                     │
 │   Models                      │   Tools        Skills        │                     │
