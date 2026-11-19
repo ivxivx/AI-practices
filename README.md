@@ -1,10 +1,10 @@
-# Architecture
+# Components
 ```
 ┌──────────────────────────────────────────────────────────────┬─────────────────────┐
 │ Entry Point                                                  │ Governance          │
 │                                                              │                     │
-│   Apps    APIs    Browsers   CLIs                            │ • Cost              │
-│                                                              │ • Accuracy          │
+│   Mobile    Web     API    CLI    Voice                      │ • Cost              │
+│                                                              │ • Quality           │
 ├──────────────────────────────────────────────────────────────┤ • Performance       │
 │ Orchestration                                                │ • Resilience        │
 │                                                              │ • Security          │
@@ -18,7 +18,12 @@
 ├───────────────────────────────┴──────────────────────────────┤                     │
 │ Data                                                         │                     │
 │                                                              │                     │
-│   Vector DB              Relational DB           Graph DB    │                     │
+│   Memory           Application            RAG                │                     │
+│                                                              │                     │
+├──────────────────────────────────────────────────────────────┤                     │
+│ Data Store                                                   │                     │
+│                                                              │                     │
+│   Vector DB            Relational DB           Graph DB      │                     │
 │                                                              │                     │
 └──────────────────────────────────────────────────────────────┴─────────────────────┘
 ```
